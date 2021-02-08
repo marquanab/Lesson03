@@ -1,0 +1,168 @@
+/*COLOR PALETTE
+https://coolors.co/ccc9dc-8b728e-676f54-fbaf00-000000
+#CCC9DC Languid Lacendar
+#8B728E Mountbatten Pink (Darker link shade #59495B)
+#676F54 Ebony
+#FBAF00 Honey Yellow (Lighter link shade #FFDA85) (Darker button rgb shade (251, 175, 0))
+#000000 Black
+*/
+
+/* Global styles
+-------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img {
+    width: 300px;
+}
+body {
+    background: #8B728E;
+    margin: 1.5in;
+    font-family: "Geneva";
+    font-size: 16px;
+    line-height: 135%;
+}
+p {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+h1, h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Arial Black";
+}   
+h3 {
+    text-decoration: underline;
+    font-family: "Arial Black";
+}     
+
+/*Floating side box
+-------------------------------------------*/
+.fixed {
+    padding: 8px;
+    background: #CCC9DC;
+    width: 120px;
+    margin: 15px;
+    position: fixed;
+    top: 15px;
+    right: 0;
+    border-bottom: #000000 5px solid;
+    border-radius: 11px;
+    box-shadow: 5px 6px 6px #252525;
+}
+.fixed p {
+    color: #8B728E;
+    margin: 0;
+}
+.fixed a {
+    text-decoration: none;
+}
+.fixed p:hover {
+    color: #59495B;
+}
+
+/* Profile
+-------------------------------------------*/
+header {
+    background: #CCC9DC; 
+    margin-bottom: 8px;
+    border-top: #000000 5px solid;
+    border-bottom: #000000 5px solid;
+    box-shadow: 5px 6px 6px #252525;
+}
+header h1 {
+    text-shadow: 5px 5px 7px #686868
+}
+header h2 {
+    color: #8B728E;
+}
+
+/* Projects
+-------------------------------------------*/
+.projects {
+    margin-bottom: 8px;
+    background: #676F54;
+    border-top: #000000 5px solid;
+    border-bottom: #000000 5px solid;
+    box-shadow: 5px 6px 6px #252525;
+}
+.projects .btn {
+    background: #FBAF00;
+    color: #000000;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 11px;
+    margin: 15px;
+    box-shadow: 5px 6px 6px #252525;
+}
+.projects .btn:hover {
+    background: rgba(251, 175, 0, 50%);
+}
+.projects a { 
+    color: #FBAF00;
+    text-decoration: none;
+    text-shadow: 5px 6px 6px #252525;
+}
+.projects a:hover {
+    color: #FFDA85;
+}
+.project-item {
+    overflow: hidden;
+}
+.project-item img{
+    float: left;
+    margin: 15px;
+    box-shadow: 5px 6px 6px #252525;
+}
+.project-item h3{
+    margin: 15px;
+}
+
+/* Work Experience
+-------------------------------------------*/
+.work {
+    margin-bottom: 8px;
+    background: #CCC9DC;
+    border-top: #000000 5px solid;
+    border-bottom: #000000 5px solid;
+    box-shadow: 5px 6px 6px #252525;
+}
+.work h3 {
+    color: #8B728E;
+    text-align: center;
+}
+
+/* Education
+-------------------------------------------*/
+.education {
+    margin-bottom: 8px;
+    background: #676F54;
+    border-top: #000000 5px solid;
+    border-bottom: #000000 5px solid;
+    box-shadow: 5px 6px 6px #252525;
+}
+.education h3 {
+    color: #FBAF00;
+    text-align: center;
+}
+.education h3:hover {
+    color: #FFDA85;
+}
+
+/* Contact
+-------------------------------------------*/
+footer {
+    background: #CCC9DC;
+    border-top: #000000 5px solid;
+    border-bottom: #000000 5px solid;
+    box-shadow: 5px 6px 6px #252525;
+}
+footer a{
+    color: #8B728E;
+}
+footer a:hover {
+    color: #59495B;
+}
